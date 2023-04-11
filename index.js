@@ -21,32 +21,32 @@ document.querySelectorAll(".drum")[i].addEventListener("click",function(){
                 break;
     
                 case "a":
-                    var Kick = new Audio("https://github.com/cstallworth3/clapout/blob/main/SouthsideKick.wav?raw=true");
+                    var Kick = new Audio();
                     Kick.play();
                     break;
                     
                     case 's':
-                        var Snare = new Audio ("https://github.com/cstallworth3/clapout/blob/main/MetroSnare.wav?raw=true");
+                        var Snare = new Audio ();
                         Snare.play();
                         break;
     
                         case 'd':
-                    var Clap = new Audio("https://github.com/cstallworth3/clapout/blob/main/MetroClap.wav?raw=true");
+                    var Clap = new Audio();
                     Clap.play();
                     break;
     
                     case 'j':
-                    var HiHat = new Audio("https://github.com/cstallworth3/clapout/blob/main/MetroHiHat.wav?raw=true");
+                    var HiHat = new Audio();
                     HiHat.play();
                     break;
     
                     case 'k':
-                    var Southside808 = new Audio("https://github.com/cstallworth3/clapout/blob/main/Southside808.wav?raw=true");
+                    var Southside808 = new Audio();
                     Southside808.play();
                     break; 
     
                     case 'l':
-                    var Cymbol = new Audio("https://github.com/cstallworth3/clapout/blob/main/CartelCymbol.wav?raw=true");
+                    var Cymbol = new Audio();
                     Cymbol.play();
                     break;
     }}
